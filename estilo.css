@@ -1,4 +1,78 @@
-.homebutton {
-	max-width: 1cm;
-	max-height: 1cm;
+html {
+    box-sizing: border-box;
 }
+
+body {
+    background-image: url("imagenes/kali-logo.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color: blue;
+    align-content: center;
+ }
+ 
+ .menu {
+     display: none;
+     border: none;
+     align-self: center;
+     justify-content: center;
+     cursor: pointer;
+     padding: 0;
+     margin: 0;
+     background-color: transparent;
+ }
+ 
+ .menu span{
+     background-color: white;
+     display: block;
+     height: 3px;
+     width: 28px;
+     border-radius: 2px;
+     margin: 9px auto;
+ }
+ 
+ .enlaces-menus{ 
+     display: flex;
+     padding: 0;
+ }
+ 
+ .opciones {
+     align-items: center;
+     display: flex;
+ }
+
+ .enlaces-menus li {
+     padding: 0px 40px;
+     list-style-type: none;
+     transition: 0.5s;
+     cursor: pointer;
+ }
+ 
+ .enlaces-menus li a {
+     font-style: oblique;
+     font-family: cursive;
+     cursor: pointer;
+     text-decoration: none;
+     border: none;
+     background-color: transparent;
+     color: white;
+     font-size: 1.5rem;
+     font-weight: 900;
+     font-variant: small-caps;
+ }
+
+ .cuerpo  {
+    width: max-content;
+    height: max-content;
+ }
+ 
+ .enlaces-menus li:hover {
+     background-color: aqua;
+ }
+ 
